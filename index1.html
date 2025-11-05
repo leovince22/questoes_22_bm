@@ -313,12 +313,12 @@
                 <li class="menu-item sub-item"><a href="#" data-section="tiposChamas">2.5 Tipos de chamas <span class="page-number">p. 30</span></a></li>
                 <li class="menu-item"><a href="#" data-section="teoriaDesenvolvimentoIncendio">3. TEORIA DO DESENVOLVIMENTO DE INCÊNDIOS <span class="page-number">p. 33</span></a></li>
                 <li class="menu-item sub-item"><a href="#" data-section="incendiosEstrutura">3.1 Os incêndios em estrutura <span class="page-number">p. 34</span></a></li>
-                <li class="menu-item"><a href="#" data-section="leitura-fumaca">4. LEITURA DE FUMAÇA <span class="page-number">p. 49</span></a></li>
-                <li class="menu-item sub-item"><a href="#" data-section="ciencia-fumaca">4.1 A ciência da fumaça <span class="page-number">p. 50</span></a></li>
-                <li class="menu-item sub-item"><a href="#" data-section="principios-leitura">4.2 Princípios da leitura da fumaça <span class="page-number">p. 51</span></a></li>
-                <li class="menu-item sub-item"><a href="#" data-section="consideracoes-finais">4.3 Considerações finais <span class="page-number">p. 57</span></a></li>
-                <li class="menu-item"><a href="#" data-section="agua-combate">5. ÁGUA NO COMBATE A INCÊNDIO <span class="page-number">p. 59</span></a></li>
-                <li class="menu-item sub-item"><a href="#" data-section="caracteristicas-agua">5.1 Características da água <span class="page-number">p. 59</span></a></li>
+                <li class="menu-item"><a href="#" data-section="leituraFumaca">4. LEITURA DE FUMAÇA <span class="page-number">p. 49</span></a></li>
+                <li class="menu-item sub-item"><a href="#" data-section="cienciaFumaca">4.1 A ciência da fumaça <span class="page-number">p. 50</span></a></li>
+                <li class="menu-item sub-item"><a href="#" data-section="principiosLeituraFumaca">4.2 Princípios da leitura da fumaça <span class="page-number">p. 51</span></a></li>
+                <li class="menu-item sub-item"><a href="#" data-section="consideracoesFinais">4.3 Considerações finais <span class="page-number">p. 57</span></a></li>
+                <li class="menu-item"><a href="#" data-section="aguaCombate">5. ÁGUA NO COMBATE A INCÊNDIO <span class="page-number">p. 59</span></a></li>
+                <li class="menu-item sub-item"><a href="#" data-section="caracteristicasAgua">5.1 Características da água <span class="page-number">p. 59</span></a></li>
                 <li class="menu-item sub-item"><a href="#" data-section="aplicacao-agua">5.2 Aplicação da água no combate a incêndio <span class="page-number">p. 64</span></a></li>
                 <li class="menu-item sub-sub-item"><a href="#" data-section="pressao">5.2.1 Pressão <span class="page-number">p. 65</span></a></li>
                 <li class="menu-item sub-sub-item"><a href="#" data-section="linha-recirculacao">5.2.2 Linha de recirculação <span class="page-number">p. 67</span></a></li>
@@ -2974,98 +2974,1387 @@ incendiosEstrutura: {
         
     `
 },            
-            'leitura-fumaca': {
-                title: '4. LEITURA DE FUMAÇA',
-                content: `
-                    <h3>A Importância da Leitura de Fumaça</h3>
-                    <p>A fumaça é um dos principais indicadores das condições de um incêndio. Saber "ler" a fumaça pode salvar vidas e orientar as estratégias de combate.</p>
-                    
-                    <h3>O que Observar na Fumaça</h3>
-                    
-                    <p><strong>1. Volume:</strong> Quantidade de fumaça liberada</p>
-                    <ul>
-                        <li>Pouca fumaça: Incêndio pequeno ou inicial</li>
-                        <li>Muita fumaça: Incêndio grande ou combustão incompleta</li>
-                    </ul>
-                    
-                    <p><strong>2. Velocidade:</strong> Rapidez com que a fumaça sai</p>
-                    <ul>
-                        <li>Rápida e sob pressão: Incêndio intenso, alta temperatura</li>
-                        <li>Lenta e pulsante: Falta de oxigênio, risco de backdraft</li>
-                    </ul>
-                    
-                    <p><strong>3. Densidade:</strong> Opacidade da fumaça</p>
-                    <ul>
-                        <li>Fina: Início do incêndio</li>
-                        <li>Densa: Combustão intensa ou incompleta</li>
-                    </ul>
-                    
-                    <p><strong>4. Cor:</strong> Indica tipo de material e fase do incêndio</p>
-                    <ul>
-                        <li><strong>Branca:</strong> Vapor d'água, materiais naturais</li>
-                        <li><strong>Cinza:</strong> Madeira, papel (combustão normal)</li>
-                        <li><strong>Preta:</strong> Derivados de petróleo, combustão incompleta</li>
-                        <li><strong>Colorida:</strong> Produtos químicos específicos</li>
-                    </ul>
-                    
-                    <h3>Sinais de Perigo</h3>
-                    <p><strong>⚠️ ATENÇÃO para:</strong></p>
-                    <ul>
-                        <li>Fumaça preta e densa saindo sob pressão</li>
-                        <li>Fumaça sendo "sugada" para dentro do ambiente</li>
-                        <li>Mudanças súbitas na cor ou velocidade</li>
-                        <li>Fumaça saindo por pequenas frestas</li>
-                    </ul>
-                `
-            },
+ leituraFumaca: {
+    title: '🔍 LEITURA DE FUMAÇA',
+    content: `
+        <div style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(44, 62, 80, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                📚 Contexto e Evolução do Conhecimento
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Após o estudo da Teoria do Fogo e Teoria do Desenvolvimento dos Incêndios, entendemos melhor os 
+                "porquês" de muita coisa que acontecem nos incêndios, e também aprendemos sobre os fenômenos de 
+                comportamento extremo do fogo.
+            </p>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Aprendemos que há fenômenos que nos sinalizam a iminente ocorrência de uma generalização súbita 
+                (Flashover), como os <strong style="color: #ff6b6b;">Ghost Flames</strong> e o 
+                <strong style="color: #ff6b6b;">Roll Over</strong>, porém apenas o conhecimento desses fenômenos 
+                não nos garante uma ação mais segura, pois eles podem ocorrer violentamente enquanto já estamos 
+                expostos em progressão.
+            </p>
+        </div>
+
+        <div style="background: #fff3cd; padding: 25px; border-radius: 12px; border-left: 5px solid #ffa500; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #d68910; margin-top: 0; font-size: 1.3em;">
+                ⚠️ A Limitação da Teoria Isolada
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px;">
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0;">
+                    Essa teoria isoladamente, não nos fornece parâmetros para definirmos como podemos, taticamente 
+                    falando, organizar o nosso socorro de forma mais segura.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(26, 71, 42, 0.3);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🎯 A Necessidade de Previsão
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Necessitamos de elementos que nos forneçam uma melhor capacidade de previsão de qual será o próximo 
+                passo que o incêndio vai dar, para que possamos nos antecipar à este desenvolvimento. Para tal, 
+                <strong style="color: #ffd700;">utilizaremos a leitura da fumaça.</strong>
+            </p>
+        </div>
+
+        <div style="background: #ffe5e5; padding: 25px; border-radius: 12px; border: 3px solid #c41e3a; margin-bottom: 25px;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.3em;">
+                ❌ O Erro Fatal: Focar nas Chamas
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #c41e3a;">
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0;">
+                    <strong style="color: #c41e3a;">Comandantes de Operações que põem nas chamas o centro de suas 
+                    atenções para escolha de sua tática, estão fadados a um estabelecimento fracassado</strong>, pois 
+                    elas muito frequentemente dão uma falsa posição do foco (Flameover).
+                </p>
+            </div>
             
-            'agua-combate': {
-                title: '5. ÁGUA NO COMBATE A INCÊNDIO',
-                content: `
-                    <h3>A Água como Agente Extintor</h3>
-                    <p>A água é o agente extintor mais utilizado devido à sua disponibilidade, eficiência e custo baixo.</p>
-                    
-                    <h3>Propriedades da Água</h3>
-                    <ul>
-                        <li><strong>Alto calor específico:</strong> Absorve grande quantidade de calor</li>
-                        <li><strong>Calor latente de vaporização:</strong> Ao virar vapor, absorve ainda mais calor</li>
-                        <li><strong>Expansão:</strong> 1 litro de água vira 1700 litros de vapor</li>
-                        <li><strong>Disponibilidade:</strong> Fácil acesso e transporte</li>
-                    </ul>
-                    
-                    <h3>Métodos de Aplicação</h3>
-                    
-                    <p><strong>1. Jato Sólido (Compacto):</strong></p>
-                    <ul>
-                        <li>Alcance maior</li>
-                        <li>Penetração em materiais</li>
-                        <li>Usado em exteriores</li>
-                    </ul>
-                    
-                    <p><strong>2. Jato Neblina:</strong></p>
-                    <ul>
-                        <li>Maior absorção de calor</li>
-                        <li>Protege a equipe</li>
-                        <li>Ideal para interiores</li>
-                    </ul>
-                    
-                    <p><strong>3. Jato Chuveiro:</strong></p>
-                    <ul>
-                        <li>Proteção de exposições</li>
-                        <li>Resfriamento de superfícies</li>
-                    </ul>
-                    
-                    <h3>⚠️ Cuidados e Restrições</h3>
-                    <p><strong>NÃO usar água em:</strong></p>
-                    <ul>
-                        <li>Equipamentos elétricos energizados (Classe C)</li>
-                        <li>Líquidos inflamáveis menos densos que água</li>
-                        <li>Metais combustíveis (Classe D)</li>
-                        <li>Produtos que reagem violentamente com água</li>
-                    </ul>
-                `
-            },
+            <div style="background: #8b0000; color: white; padding: 20px; border-radius: 8px;">
+                <h4 style="margin-top: 0; color: #ffd700; font-size: 1.2em;">⚠️ PERIGO DO FLAMEOVER:</h4>
+                <p style="line-height: 1.8; margin: 0;">
+                    As chamas exteriores podem iludir completamente as equipes, oferecendo uma posição 
+                    <strong style="color: #ffd700;">FALSA</strong> do verdadeiro foco do incêndio!
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #2980b9 0%, #3498db 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🔬 A Solução: Análise Comparativa da Fumaça
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 20px;">
+                Ao invés da observação das chamas exteriores, uma <strong style="color: #ffd700;">análise comparativa 
+                de atributos da fumaça</strong> (volume, velocidade, densidade e coloração) podem ajudar o comandante 
+                de Socorro a determinar:
+            </p>
             
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;">
+                <div style="background: rgba(255, 255, 255, 0.15); padding: 18px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <strong style="color: #ffd700; font-size: 1.1em;">📊</strong><br>
+                    <span style="color: white;">O grau de desenvolvimento do incêndio</span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.15); padding: 18px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <strong style="color: #ffd700; font-size: 1.1em;">📏</strong><br>
+                    <span style="color: white;">O tamanho do foco</span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.15); padding: 18px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <strong style="color: #ffd700; font-size: 1.1em;">📍</strong><br>
+                    <span style="color: white;">A localização do foco</span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.15); padding: 18px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <strong style="color: #ffd700; font-size: 1.1em;">⚡</strong><br>
+                    <span style="color: white;">O potencial risco de Flashover</span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.15); padding: 18px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <strong style="color: #ffd700; font-size: 1.1em;">📍</strong><br>
+                    <span style="color: white;">Onde o Flashover acontecerá</span>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.15); padding: 18px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <strong style="color: #ffd700; font-size: 1.1em;">⏰</strong><br>
+                    <span style="color: white;">Quando o Flashover acontecerá</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(142, 68, 173, 0.4); text-align: center;">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase;">
+                🔬 A Ciência Oculta por Trás da Fumaça
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify; font-size: 1.05em;">
+                Antes de conhecermos tais atributos, precisamos entender melhor a ciência oculta por trás da fumaça
+            </p>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border: 3px solid #c41e3a; margin-bottom: 25px; text-align: center;">
+            <h3 style="color: #c41e3a; margin-top: 0; font-size: 1.3em;">
+                📸 IMPORTANTE: Flameover
+            </h3>
+            <div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #ffa500;">
+                <img src="[CAMINHO_DA_IMAGEM_FLAMEOVER]" alt="Flameover" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+                <p style="margin-top: 15px; color: #d68910; font-weight: bold; font-size: 1.1em; line-height: 1.6;">
+                    ⚠️ Flameover: Pode iludir as equipes, oferecendo posição falsa do foco
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.4em; text-transform: uppercase; text-align: center;">
+                🎯 OS 4 ATRIBUTOS DA FUMAÇA
+            </h3>
+            <div style="background: #8b0000; color: white; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">
+                    <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong style="color: #ffd700; font-size: 1.3em;">📊</strong><br>
+                        <strong style="color: #ffd700;">VOLUME</strong>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong style="color: #ffd700; font-size: 1.3em;">⚡</strong><br>
+                        <strong style="color: #ffd700;">VELOCIDADE</strong>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong style="color: #ffd700; font-size: 1.3em;">💨</strong><br>
+                        <strong style="color: #ffd700;">DENSIDADE</strong>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; text-align: center;">
+                        <strong style="color: #ffd700; font-size: 1.3em;">🎨</strong><br>
+                        <strong style="color: #ffd700;">COLORAÇÃO</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+},
+cienciaFumaca: {
+    title: '💨 4.1 A CIÊNCIA DA FUMAÇA',
+    content: `
+        <div style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(44, 62, 80, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🔬 O Processo de Degradação Térmica
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Dentro de uma estrutura, o calor produzido pelo foco e transportado pela fumaça, é absorvido pelos 
+                materiais, e os aquece. Tais materiais se degradam (termolisam) e desprendem gases e vapores, sem 
+                que estes queimem. <strong style="color: #ffd700;">Essa degradação térmica determina a inflamabilidade 
+                da fumaça.</strong>
+            </p>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border-left: 5px solid #e74c3c; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #e74c3c; margin-top: 0; font-size: 1.3em;">
+                🏠 Dentro do Cômodo Confinado
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="line-height: 1.8; color: #333; text-align: justify;">
+                    Dentro de um cômodo, tais gases e vapores se difundem na atmosfera confinada, e contribuem para 
+                    uma <strong style="color: #e74c3c;">redução da taxa de oxigenação dela</strong>. Incêndios menos 
+                    ventilados (mais confinados) dificultam a reação de combustão completa, gerando o aumento dos 
+                    níveis de monóxido de carbono e gases tóxicos e, conforme o tempo passa e o incêndio evolui, 
+                    essa fumaça poderá se ignir.
+                </p>
+            </div>
+            
+            <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 20px; border-radius: 8px;">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em;">🔥 FATORES DETERMINANTES PARA IGNIÇÃO:</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                        <strong style="color: #ffd700;">🌫️ A MISTURA CERTA</strong><br>
+                        <span style="color: white;">Proporção ar + fumaça</span>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                        <strong style="color: #ffd700;">🌡️ A TEMPERATURA CERTA</strong><br>
+                        <span style="color: white;">Ponto de ignição da fumaça</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: #fff3cd; padding: 25px; border-radius: 12px; border: 3px solid #ff8c00; margin-bottom: 25px; text-align: center;">
+            <div style="background: white; padding: 20px; border-radius: 8px; display: inline-block; box-shadow: 0 3px 10px rgba(0,0,0,0.2);">
+                <img src="caminho/para/imagem-fumaca.jpg" alt="Fumaça aquecida" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+                <p style="color: #333; font-size: 0.95em; font-style: italic; margin: 0; line-height: 1.6;">
+                    <strong style="color: #ff8c00;">📸 Fumaça aquecida:</strong> Desenvolvendo-se até atingir a mistura e temperatura de ignição.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                ☠️ Composição da Fumaça
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 20px;">
+                A fumaça que é observada saindo de uma estrutura deve ser interpretada como a fuga de um agregado 
+                de sólidos, aerossóis, gases combustíveis e restos de material em combustão que são 
+                <strong style="color: #ffd700;">tóxicos, inflamáveis, e voláteis.</strong>
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <h4 style="color: #ffd700; margin-top: 0; font-size: 1.1em;">⚫ SÓLIDOS SUSPENSOS</h4>
+                    <p style="color: white; line-height: 1.6; margin: 0;">
+                        Carbono na forma de fuligem (em pó)
+                    </p>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <h4 style="color: #ffd700; margin-top: 0; font-size: 1.1em;">💧 AEROSSÓIS</h4>
+                    <p style="color: white; line-height: 1.6; margin: 0;">
+                        Extensa gama de hidrocarbonetos oleosos e inflamáveis
+                    </p>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <h4 style="color: #ffd700; margin-top: 0; font-size: 1.1em;">☠️ GASES COMBUSTÍVEIS</h4>
+                    <p style="color: white; line-height: 1.6; margin: 0;">
+                        Numerosos gases tóxicos incluindo:
+                    </p>
+                    <ul style="color: white; margin: 10px 0 0 20px; line-height: 1.8;">
+                        <li>Monóxido de carbono</li>
+                        <li>Cianeto de hidrogênio</li>
+                        <li>Acroleína</li>
+                        <li>Sulfeto de hidrogênio</li>
+                        <li>Benzeno</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: #e8f4f8; padding: 25px; border-radius: 12px; border-left: 5px solid #3498db; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #2980b9; margin-top: 0; font-size: 1.3em;">
+                🔥 Condições para Ignição da Fumaça
+            </h3>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                <div style="background: white; padding: 20px; border-radius: 8px; border: 2px solid #3498db;">
+                    <h4 style="color: #2980b9; margin-top: 0;">📊 ACIMA DO PONTO DE FULGOR</h4>
+                    <p style="color: #333; line-height: 1.8; text-align: justify; margin: 0;">
+                        Os gases da fumaça acima de seu ponto de fulgor (e misturados com ar) apenas necessitam de 
+                        uma fonte de ignição. Longe do foco principal, uma simples pequena chama ou quebra de uma 
+                        lâmpada pode provocar essa ignição.
+                    </p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 8px; border: 2px solid #e74c3c;">
+                    <h4 style="color: #c0392b; margin-top: 0;">🌡️ ACIMA DA TEMPERATURA DE IGNIÇÃO</h4>
+                    <p style="color: #333; line-height: 1.8; text-align: justify; margin: 0;">
+                        Os gases de fumaça acima de sua temperatura de ignição necessitam apenas da mistura 
+                        apropriada com o ar.
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #ff8c00 0%, #ff6347 100%); padding: 20px; border-radius: 8px;">
+                <h4 style="color: white; margin-top: 0; font-size: 1.2em;">💥 ATENÇÃO - ONDA DE CHOQUE!</h4>
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    A ignição da fumaça, se ela estiver pressurizada e densa num quarto ou cômodo irá provavelmente 
+                    resultar num <strong>surgimento de onda de choque.</strong>
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #8b0000 0%, #c41e3a 100%); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(139, 0, 0, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.4em; text-transform: uppercase; text-align: center; border-bottom: 2px solid #ffd700; padding-bottom: 15px;">
+                🔄 Mudança na Dinâmica de Propagação
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.1); padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <p style="color: white; line-height: 1.9; text-align: justify; font-size: 1.05em; margin-bottom: 20px;">
+                    Ao ignir, a fumaça acumulada também muda a dinâmica da propagação do incêndio: 
+                    <strong style="color: #ffd700;">Ao invés do fogo se espalhar sobre as superfícies combustíveis 
+                    aquecidas, ele irá se espalhar ao longo do fluxo de fumaça.</strong>
+                </p>
+                
+                <div style="background: #ffd700; padding: 20px; border-radius: 8px; text-align: center;">
+                    <p style="color: #8b0000; font-weight: bold; font-size: 1.1em; margin: 0; line-height: 1.8;">
+                        🎯 Sabendo disso, partimos para o estudo dos elementos de avaliação da fumaça para 
+                        tomada de decisões.
+                    </p>
+                </div>
+            </div>
+        </div>
+    `
+},
+principiosLeituraFumaca: {
+    title: '💨 PRINCÍPIOS DA LEITURA DA FUMAÇA',
+    content: `
+        <div style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(44, 62, 80, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.4em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                📊 VOLUME
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                O volume da fumaça, isoladamente, nos diz pouco sobre o incêndio, mas ele estabelece a base para se 
+                deduzir a quantidade de combustíveis que estão termolisando num dado espaço.
+            </p>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border-left: 5px solid #3498db; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #3498db; margin-top: 0; font-size: 1.3em;">
+                🔥 Características da Queima
+            </h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                <div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #27ae60;">
+                    <strong style="color: #27ae60; font-size: 1.1em;">🔹 ESTÁGIO INICIAL</strong>
+                    <p style="line-height: 1.8; color: #333; margin-top: 10px; text-align: justify;">
+                        Um incêndio com uma queima em estágio inicial, fraca e limpa, com chamas pouco perturbadas 
+                        (sem impedimentos à zona de reação), irá emitir uma pequena quantidade de fumaça visível.
+                    </p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #c41e3a;">
+                    <strong style="color: #c41e3a; font-size: 1.1em;">🔥 FOCO AQUECIDO</strong>
+                    <p style="line-height: 1.8; color: #333; margin-top: 10px; text-align: justify;">
+                        Em contrapartida, um foco aquecido, e com chamas perturbadas num incêndio com a capa térmica 
+                        bem definida numa construção com pouca ventilação (poucas aberturas, provocando o rebaixamento 
+                        do plano neutro) irá liberar um tremendo volume de fumaça.
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: #e8f4f8; padding: 20px; border-radius: 8px; border-left: 4px solid #3498db; margin-bottom: 15px;">
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0;">
+                    💧 <strong style="color: #3498db;">Materiais úmidos</strong> irão queimar muito lentamente e produzir 
+                    bastante volume de fumaça, de coloração bastante clara oriunda do vapor, e este, pouco denso.
+                </p>
+            </div>
+
+            <div style="background: #fff3cd; padding: 20px; border-radius: 8px; border-left: 4px solid #ffa500;">
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0;">
+                    🧪 <strong style="color: #e67e22;">Materiais modernos:</strong> As características dos materiais modernos 
+                    (polímeros menos densos) podem produzir grandes volumes de fumaça mesmo com uma pequena chama presente.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(142, 68, 173, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🎯 Impressão Inicial sobre o Incêndio
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                O volume de fumaça pode ajudar com a impressão inicial sobre o incêndio.
+            </p>
+            <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; margin-top: 15px;">
+                <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
+                    <strong style="color: #ffd700;">Exemplo 1:</strong> Um pequeno foco pode ser suficiente para preencher 
+                    com fumaça um pequeno restaurante fastfood.
+                </p>
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    <strong style="color: #ffd700;">Exemplo 2:</strong> Por outro lado, será necessário um foco grande para 
+                    que a fumaça preencha uma grande loja ou supermercado.
+                </p>
+            </div>
+            <p style="color: white; line-height: 1.8; text-align: justify; margin-top: 15px;">
+                Deste modo, o volume de fumaça dará a impressão do <strong style="color: #ffd700;">grau de desenvolvimento 
+                do incêndio</strong>.
+            </p>
+        </div>
+
+        <div style="background: #ffe5e5; padding: 25px; border-radius: 12px; border: 3px solid #c41e3a; margin-bottom: 25px;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.3em;">
+                🏢 Estruturas Grandes - Consideração Importante
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #e74c3c;">
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0;">
+                    Além disso, estruturas grandes demoram muito para perturbar as chamas, pela dificuldade de suas pontas 
+                    de acessar o teto ou área suboxigenada, fazendo com que o ar quente do foco se acumule no teto, e pouca 
+                    a fumaça percebida é oriunda da termólise de elementos próximos do teto (tinta, materiais de encanamento, 
+                    fios, etc), fazendo com que de fora, focos grandes possam ser mascarados com pouco volume de fumaça.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); padding: 30px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(230, 126, 34, 0.4);">
+            <h3 style="color: white; margin-top: 0; font-size: 1.5em; text-transform: uppercase; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                ⚡ VELOCIDADE
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.95); padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <p style="color: #333; line-height: 1.8; text-align: justify; font-size: 1.05em;">
+                    A velocidade com que a fumaça escapa de uma estrutura é um <strong style="color: #e67e22;">indicador de 
+                    pressão</strong> dentro de um cômodo da edificação. De um ponto de vista tático, o comandante de incidente 
+                    precisa deduzir a <strong style="color: #c41e3a;">CAUSA</strong> do aumento de pressão da fumaça.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border-left: 5px solid #e67e22; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #e67e22; margin-top: 0; font-size: 1.3em;">
+                🔬 Causas do Aumento de Pressão
+            </h3>
+            <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 20px;">
+                Do ponto de vista científico, apenas duas coisas podem ocasionar o aumento de pressão na estrutura:
+            </p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);">
+                    <div style="font-size: 2.5em; margin-bottom: 10px;">🌡️</div>
+                    <strong style="color: white; font-size: 1.2em;">Aumento de<br>TEMPERATURA</strong>
+                </div>
+                <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);">
+                    <div style="font-size: 2.5em; margin-bottom: 10px;">📊</div>
+                    <strong style="color: white; font-size: 1.2em;">Aumento de<br>VOLUME DA FUMAÇA</strong>
+                </div>
+            </div>
+            <p style="line-height: 1.8; color: #333; text-align: justify;">
+                Quando analisamos com calma a fumaça que escapa da estrutura, é possível discernirmos a causa desse 
+                aumento de velocidade.
+            </p>
+        </div>
+
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 3px solid #3498db; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #3498db; margin-top: 0; font-size: 1.3em;">
+                🔄 Comparação dos Tipos de Aceleração
+            </h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 20px; border-radius: 8px;">
+                    <h4 style="color: #ffd700; margin-top: 0; text-align: center;">🔥 ACELERADA PELO CALOR</h4>
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        A fumaça acelerada pelo calor irá subir, se misturar ao ar atmosférico e gradualmente diminuir sua 
+                        velocidade ao longo da mistura com este ar (ao esfriar).
+                    </p>
+                </div>
+                <div style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); padding: 20px; border-radius: 8px;">
+                    <h4 style="color: #ffd700; margin-top: 0; text-align: center;">💨 ACELERADA POR RESTRIÇÃO</h4>
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        A fumaça veloz, acelerada por restrição do volume, irá imediatamente ficar lenta e equilibrar-se 
+                        com o fluxo de ar externo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 30px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(196, 30, 58, 0.5); border: 4px solid #ffd700;">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.5em; text-transform: uppercase; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                ⚠️ ALERTA CRÍTICO: FUMAÇA TURBULENTA
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.95); padding: 25px; border-radius: 10px; margin-top: 20px; border: 3px solid #ffd700;">
+                <p style="color: #8b0000; line-height: 1.8; text-align: justify; font-size: 1.1em; margin: 0;">
+                    <strong style="font-size: 1.2em;">⚡ ATENÇÃO MÁXIMA:</strong> Se além de veloz, a fumaça que escapa de uma 
+                    estrutura é muito turbulenta (outras descrições: fumaça agitada, de aparência fervente, ou "feroz"), um 
+                    <strong style="color: #c41e3a; font-size: 1.2em;">Flashover está na iminência de ocorrer</strong>.
+                </p>
+            </div>
+            <div style="background: rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 8px; margin-top: 20px;">
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    <strong style="color: #ffd700;">💡 Explicação:</strong> Fluxo turbulento é causado por uma rápida expansão 
+                    molecular dos gases dentro da fumaça e a restrição dessa expansão pelo compartimento (estrutura).
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); padding: 30px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4); border: 3px solid #c41e3a;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.4em; text-transform: uppercase; text-align: center;">
+                🎯 A OBSERVAÇÃO MAIS IMPORTANTE
+            </h3>
+            <div style="background: #8b0000; color: white; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <p style="line-height: 1.8; text-align: justify; font-size: 1.1em; margin: 0;">
+                    A mais importante observação da fumaça é esta: <strong style="color: #ffd700; font-size: 1.2em;">fluxo 
+                    turbulento (rugoso) versus fluxo laminar de fumaça</strong>. Fumaça muito turbulenta (além do normal) 
+                    está prestes a ignir, pois já possui temperatura suficiente. O Flashover será deflagrado assim que houver 
+                    a mistura própria com ar.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 2px solid #95a5a6; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center;">
+            <div style="background: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <img src="[CAMINHO_DA_IMAGEM]" alt="Fumaça Turbulenta" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+            </div>
+            <p style="color: #c41e3a; font-weight: bold; font-size: 1.1em; line-height: 1.6; margin: 0;">
+                ⚠️ Fumaça excessivamente turbulenta: sinal de iminência de ignição
+            </p>
+        </div>
+
+        <div style="background: #e8f4f8; padding: 25px; border-radius: 12px; border-left: 5px solid #3498db; margin-bottom: 25px;">
+            <h3 style="color: #3498db; margin-top: 0; font-size: 1.3em;">
+                📍 Determinando a Localização do Foco
+            </h3>
+            <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 20px;">
+                Comparar a velocidade da fumaça em diferentes saídas da edificação, pode ajudar o comandante de socorro a 
+                determinar a localização do foco do incêndio.
+            </p>
+            <div style="background: #fff3cd; padding: 20px; border-radius: 8px; border-left: 4px solid #ffa500; margin-bottom: 15px;">
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0;">
+                    ⚠️ <strong style="color: #e67e22;">Lembrando:</strong> A velocidade da fumaça que se vê escapando da 
+                    estrutura é, em último caso, determinada pelo tamanho da saída de exaustão. A fumaça irá seguir o caminho 
+                    de menor resistência, e irá perder velocidade conforme a distância do foco aumenta.
+                </p>
+            </div>
+            <div style="background: white; padding: 20px; border-radius: 8px; border: 2px solid #3498db;">
+                <h4 style="color: #3498db; margin-top: 0;">🎯 Técnica de Comparação:</h4>
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 15px;">
+                    Para encontrar a localização do foco pela comparação de velocidades, você deve apenas comparar 
+                    <strong style="color: #c41e3a;">saídas com tamanho parecido de abertura</strong> (portas com outras 
+                    portas, janelas com janelas, etc).
+                </p>
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin: 0; background: #e8f4f8; padding: 15px; border-radius: 6px;">
+                    💡 <strong style="color: #3498db;">Dica de Comandante Experiente:</strong> Procure a fumaça mais veloz 
+                    observando as <strong>menores saídas semelhantes</strong>, pois nelas, será mais facilmente notada a 
+                    diferença de velocidade.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(44, 62, 80, 0.3);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                💨 DENSIDADE
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Enquanto a velocidade pode te ajudar a entender melhor sobre o incêndio (o quão quente, e onde), 
+                a densidade te dirá o quão ruins as coisas estão se tornando.
+            </p>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Visto que a fumaça é uma mistura gasosa de vapores de hidrocarbonetos, gases e sólidos em pó, 
+                capaz de entrar em ignição subitamente, a densidade da fumaça irá nos dizer a quantidade de vapores 
+                combustíveis que estão sendo carregados nesta fumaça.
+            </p>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border-left: 5px solid #e74c3c; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #e74c3c; margin-top: 0; font-size: 1.3em;">
+                📏 Espessura e Continuidade
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="line-height: 1.8; color: #333; text-align: justify;">
+                    Espessura da fumaça também é indicativo da <strong style="color: #e74c3c;">continuidade 
+                    (proximidade entre as moléculas)</strong> do combustível. Na prática, fumaça densa irá propagar o 
+                    incêndio mais violentamente do que a fumaça menos densa.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(196, 30, 58, 0.3);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                ⚠️ ALERTAS CRÍTICOS
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="color: white; line-height: 1.8; text-align: justify;">
+                    Nós já sabemos que a <strong style="color: #ffd700;">turbulência da fumaça é um alerta de ocorrência de 
+                    Flashover</strong>, mas ainda, fumaça densa, ainda que num fluxo laminar, pode se ignir por 
+                    conta da continuidade do combustível presente nela, se tiver contato com chamas 
+                    ou fontes de ignição.
+                </p>
+            </div>
+            <div style="background: #8b0000; padding: 20px; border-radius: 8px; border: 2px solid #ffd700;">
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    ☠️ <strong style="color: #ffd700;">Outro ponto importante relativo à densidade:</strong> 
+                    Fumaça espessa dentro de um compartimento reduz a chance de vida por conta de sua toxidez.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.5em; text-transform: uppercase; text-align: center; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🎨 COLORAÇÃO
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify; font-size: 1.05em;">
+                Na avaliação inicial do cenário, na chegada do socorro, a cor da fumaça dirá 
+                o estágio do aquecimento dos materiais e ajuda também na localização do foco.
+            </p>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Combustíveis sólidos emitirão uma fumaça clara e branca quando aquecidos 
+                inicialmente. Essa fumaça clara é oriunda da mistura de um pouco de umidade com 
+                fumaça de termólise, enquanto esta encontra-se em sua fase endotérmica (que 
+                precisa de energia para ocorrer).
+            </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 25px;">
+            
+            <div style="background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); border: 3px solid #333;">
+                <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-align: center;">
+                    ⚫ FUMAÇA NEGRA
+                </h3>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify;">
+                        Quando as chamas aumentam e são perturbadas (pelo teto, pela zona 
+                        suboxigenada nas partes altas do cômodo, ou pela própria convecção) há a 
+                        liberação de fumaça negra.
+                    </p>
+                </div>
+                <div style="background: #c41e3a; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        <strong style="color: #ffd700;">🌡️ TEMPERATURA:</strong> Normalmente, a fumaça negra apresenta 
+                        a temperatura mais alta, pois é oriunda diretamente da ponta das chamas do foco.
+                    </p>
+                </div>
+                <div style="background: rgba(255, 215, 0, 0.2); padding: 20px; border-radius: 8px; border: 2px solid #ffd700;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        🎯 <strong style="color: #ffd700;">INDICATIVO:</strong> Fumaça negra e veloz é um forte 
+                        indicativo de proximidade do foco.
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #ecf0f1 0%, #bdc3c7 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(189, 195, 199, 0.4); border: 3px solid #95a5a6;">
+                <h3 style="color: #2c3e50; margin-top: 0; font-size: 1.3em; text-align: center;">
+                    ⚪ FUMAÇA BRANCA
+                </h3>
+                <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 4px solid #3498db;">
+                    <p style="color: #333; line-height: 1.8; text-align: justify;">
+                        A fumaça clara quando observada, é resultado do aquecimento dos estágios 
+                        iniciais dos combustíveis ao derredor do foco, ou é oriunda de focos mais 
+                        desenvolvidos, cuja fumaça viajou uma maior distância.
+                    </p>
+                </div>
+                <div style="background: #3498db; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        <strong style="color: #ffd700;">❓ Como diferenciar?</strong><br>
+                        Porém, como saber na prática, diferenciar as duas situações de origem de fumaça branca?
+                    </p>
+                </div>
+                <div style="background: #2c3e50; padding: 20px; border-radius: 8px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
+                        Para responder à essa questão, precisamos atentar para a <strong style="color: #ffd700;">velocidade</strong>, 
+                        aliada à essa coloração:
+                    </p>
+                    <ul style="color: white; line-height: 2; margin: 0;">
+                        <li><strong style="color: #ffd700;">Pressurizada:</strong> Indica distância do foco, ou gases desprendidos por combustíveis ao longo do fluxo</li>
+                        <li><strong style="color: #ffd700;">Calma e laminar:</strong> Indicativo de aquecimento em estágios primários</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #d4a574 0%, #8b7355 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(139, 115, 85, 0.4); border: 3px solid #a0826d;">
+                <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-align: center;">
+                    🟤 FUMAÇA CÁQUI
+                </h3>
+                <div style="background: rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 8px; margin-bottom: 15px; border: 2px solid #ffd700;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        <strong style="color: #ffd700;">⚠️ ALERTA MÁXIMO:</strong> Sinal de termólise mais violenta 
+                        (degradação rápida) dos materiais. Ocorre em faixas de temperaturas maiores.
+                    </p>
+                </div>
+                <div style="background: #8b0000; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        🔥 É responsável pelo <strong style="color: #ffd700;">mais elevado grau de inflamabilidade da fumaça</strong>.
+                    </p>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 8px;">
+                    <p style="color: #333; line-height: 1.8; text-align: justify; margin-bottom: 10px;">
+                        <strong style="color: #8b0000;">Composição:</strong>
+                    </p>
+                    <ul style="color: #333; line-height: 1.8; margin: 0;">
+                        <li>Metano</li>
+                        <li>Metanol</li>
+                        <li>Formaldeído</li>
+                        <li>Ácido fórmico</li>
+                        <li>Ácido acético</li>
+                        <li>Hidrogênio</li>
+                        <li>Alcatrões altamente inflamáveis (coloração)</li>
+                    </ul>
+                    <p style="color: #333; line-height: 1.8; text-align: justify; margin: 15px 0 0 0; padding-top: 15px; border-top: 2px solid #d4a574;">
+                        Toda essa mistura gasosa é conduzida por meio de gotículas e compõem essa fumaça.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: #fff3cd; padding: 25px; border-radius: 12px; border: 3px solid #ffa500; margin-bottom: 25px;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.3em;">
+                📚 Embasamento Científico
+            </h3>
+            <p style="line-height: 1.8; color: #333; text-align: justify;">
+                Estudos de degradação térmica de combustíveis sólidos orgânicos indicam 
+                que, nessa fase da termólise, ela ocorre de forma <strong style="color: #c41e3a;">exotérmica 
+                (libera energia enquanto ocorre)</strong>, numa temperatura associada ao ponto de ignição dos 
+                combustíveis sólidos (Corradi, 2013).
+            </p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(44, 62, 80, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🔍 LOCALIZAÇÃO DO FOCO PELA COLORAÇÃO
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 20px;">
+                A coloração da fumaça pode, além disso, ajudar também na localização do foco.
+            </p>
+            <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px;">
+                <p style="color: white; line-height: 1.8; text-align: justify;">
+                    Conforme a fumaça se distancia das chamas, ela aquece outros materiais 
+                    combustíveis em seu caminho, e a umidade e vapores de termólise desses objetos 
+                    torna a fumaça mais cinzenta, ou até clara, dependendo da distância. Enquanto a 
+                    fumaça viaja, carbono contido nela irá se depositar ao longo das superfícies e 
+                    objetos, o que também a torna mais clara.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: white; padding: 30px; border-radius: 12px; border: 3px solid #d4a574; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.3em; margin-bottom: 20px;">
+                📸 REGISTRO FOTOGRÁFICO
+            </h3>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; min-height: 200px; display: flex; align-items: center; justify-content: center; border: 2px dashed #d4a574;">
+                <p style="color: #666; margin: 0; font-style: italic;">
+                    [IMAGEM: Condensação oleosa dos vapores de fumaça cáqui]
+                </p>
+            </div>
+            <p style="color: #333; margin-top: 15px; font-weight: bold; font-style: italic;">
+                Condensação oleosa dos vapores de fumaça cáqui
+            </p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #8b7355 0%, #6b563b 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(139, 115, 85, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🟤 FUMAÇA CÁQUI - Transição Perigosa
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <p style="color: #333; line-height: 1.8; text-align: justify;">
+                    A transição para a coloração cáqui pode ser indício de um <strong style="color: #c41e3a;">incêndio 
+                    subventilado</strong>, com a queda do plano neutro, "abafando" as chamas, mas mantendo-se a alta 
+                    temperatura nas superfícies combustíveis, e a queima apenas ocorrendo na fase sólida (brasas).
+                </p>
+            </div>
+
+            <div style="background: #fff3cd; border-left: 5px solid #ffa500; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <h4 style="color: #cc6600; margin-top: 0; font-size: 1.2em;">⚠️ CARACTERÍSTICAS DA FUMAÇA CÁQUI:</h4>
+                <p style="color: #333; line-height: 1.8; text-align: justify; margin: 0;">
+                    Nessa situação, a fumaça se torna <strong>mais densa (espessa)</strong> por conta da liberação 
+                    violenta de vapores que não são queimados, mas a temperatura média da fumaça nas saídas tende a 
+                    cair para abaixo de seu ponto de ignição, por conta da diminuição do fluxo de calor do incêndio 
+                    (por isso é menor a visualização de Flame Over em fumaça cáqui).
+                </p>
+            </div>
+
+            <div style="background: #ffebee; border: 3px solid #c41e3a; padding: 20px; border-radius: 8px; text-align: center;">
+                <h4 style="color: #8b0000; margin-top: 0; font-size: 1.2em;">🚨 RISCO DE BACKDRAFT!</h4>
+                <p style="color: #333; line-height: 1.8; margin: 0; font-weight: bold;">
+                    Esse cenário é propício para a ocorrência de um Backdraft, em caso de ventilação súbita.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border: 3px solid #8b7355; margin-bottom: 25px; text-align: center;">
+            <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <img src="caminho/para/imagem-fumaca-caqui.jpg" alt="Fumaça Cáqui" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+                <p style="color: #8b7355; font-weight: bold; font-size: 1.1em; margin: 0; padding: 15px; background: #f5f5dc; border-radius: 8px;">
+                    🟤 Fumaça Cáqui: Degradação violenta de combustíveis sólidos
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #d2691e 0%, #8b4513 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(210, 105, 30, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🏠 INCÊNDIOS EM ESTRUTURAS DE MADEIRA
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.95); padding: 20px; border-radius: 8px;">
+                <div style="background: #c41e3a; color: white; padding: 15px; border-radius: 8px; margin-bottom: 15px; text-align: center;">
+                    <strong style="font-size: 1.2em;">⚠️ ATENÇÃO ESPECIAL!</strong>
+                </div>
+                <p style="color: #333; line-height: 1.8; text-align: justify; margin: 0;">
+                    Nos incêndios em estruturas de madeira (casas de estilo americano), a fumaça cáqui é tratada como 
+                    <strong style="color: #c41e3a;">indicativo de risco de colapso</strong>, visto que a temperatura 
+                    de ocorrência da termólise em que esta fumaça é produzida, também representa perda de resistência 
+                    mecânica da madeira estrutura.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%); padding: 30px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); border: 3px solid #c41e3a;">
+            <h3 style="color: #ff0000; margin-top: 0; font-size: 1.5em; text-transform: uppercase; text-align: center; text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);">
+                🔥 BLACK FIRE - "FOGO NEGRO"
+            </h3>
+            
+            <div style="background: rgba(196, 30, 58, 0.2); border: 2px solid #c41e3a; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em;">📖 DEFINIÇÃO:</h4>
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    "Black Fire" é uma expressão usada para descrever fumaça <strong style="color: #ff6b6b;">ultradensa 
+                    de alto volume, veloz, com alta turbulência e muito negra</strong> (reunindo todos os sinais de 
+                    risco juntos). "Fogo Negro" é um claro sinal de <strong style="color: #ffd700;">iminente autoignição 
+                    ou Flashover</strong>.
+                </p>
+            </div>
+
+            <div style="background: rgba(255, 215, 0, 0.15); border-left: 5px solid #ffd700; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em;">🇺🇸 ORIGEM DO TERMO:</h4>
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    O uso dessa expressão, é um jargão americano, criado para fomentar no bombeiro a preocupação com 
+                    estruturas tocadas pela fumaça nessas condições, pois ela <strong style="color: #ff6b6b;">mesmo sem 
+                    ignição causa quase os mesmos danos às estruturas</strong> que seriam causadas por chamas, como 
+                    dilatação e colapso de estruturas metálicas, degradação feroz de materiais e morte de vítimas.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 20px;">
+                <div style="background: rgba(255, 0, 0, 0.2); border: 2px solid #ff4444; padding: 20px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 2em; margin-bottom: 10px;">🌡️</div>
+                    <strong style="color: #ffd700; display: block; margin-bottom: 10px;">TEMPERATURA:</strong>
+                    <span style="color: white; font-size: 1.3em; font-weight: bold;">Próximas de 600°C</span>
+                </div>
+                <div style="background: rgba(255, 0, 0, 0.2); border: 2px solid #ff4444; padding: 20px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 2em; margin-bottom: 10px;">📊</div>
+                    <strong style="color: #ffd700; display: block; margin-bottom: 10px;">DENSIDADE:</strong>
+                    <span style="color: white; font-size: 1.3em; font-weight: bold;">Alta densidade</span>
+                </div>
+                <div style="background: rgba(255, 0, 0, 0.2); border: 2px solid #ff4444; padding: 20px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 2em; margin-bottom: 10px;">⚡</div>
+                    <strong style="color: #ffd700; display: block; margin-bottom: 10px;">FASE:</strong>
+                    <span style="color: white; font-size: 1.3em; font-weight: bold;">Desenvolvimento Avançado</span>
+                </div>
+            </div>
+
+            <div style="background: rgba(139, 0, 0, 0.3); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em;">🔬 CARACTERÍSTICAS TÉCNICAS:</h4>
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    Lembrando que esta fumaça negra com alta densidade, é gerada na <strong style="color: #ff6b6b;">fase 
+                    de desenvolvimento bem avançada</strong>, tendo suas chamas muito perturbadas. Essa fumaça pode atingir 
+                    <strong style="color: #ffd700;">temperaturas próximas de 600º</strong>.
+                </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 25px; border-radius: 10px; border: 3px solid #ffd700;">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-align: center; text-transform: uppercase;">
+                    🎯 TRATAMENTO OPERACIONAL
+                </h4>
+                <p style="color: white; line-height: 1.8; text-align: center; font-size: 1.1em; margin: 15px 0; font-weight: bold;">
+                    Tratemos essa fumaça como se fossem chamas
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">🛡️</div>
+                        <strong style="color: #ffd700; font-size: 1.1em;">Proteção contra Exposição</strong>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">❄️</div>
+                        <strong style="color: #ffd700; font-size: 1.1em;">Resfriamento</strong>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">💨</div>
+                        <strong style="color: #ffd700; font-size: 1.1em;">Ventilação Tática</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+},
+
+consideracoesFinais: {
+    title: '🎯 CONSIDERAÇÕES FINAIS',
+    content: `
+        <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(196, 30, 58, 0.3);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                📋 Dimensionando as Condições do Incêndio
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                Conhecer o significado de cada atributo nos ajuda a dimensionar melhor as condições do incêndio. 
+                Combinando estes atributos, observações básicas podem ser feitas antes que os militares adentrem na 
+                estrutura, ou mesmo em reavaliações durante o combate.
+            </p>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border-left: 5px solid #ff6b35; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #ff6b35; margin-top: 0; font-size: 1.3em;">
+                🔍 Localizando o Fogo pela Fumaça
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+                <p style="line-height: 1.8; color: #333; text-align: justify;">
+                    Comparar velocidade e coloração de diferentes aberturas ajuda a encontrar a localização do fogo. 
+                    Fumaça bem negra e veloz estará próxima ao foco, enquanto fumaça mais clara, menos densa, e menos 
+                    escurecida, tenderá a ficar mais longe deste.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                <div style="background: linear-gradient(135deg, #2c3e50 0%, #000000 100%); padding: 20px; border-radius: 8px; text-align: center; color: white;">
+                    <div style="font-size: 2.5em; margin-bottom: 10px;">💨</div>
+                    <strong style="color: #ffd700; font-size: 1.1em;">PRÓXIMO AO FOCO</strong><br>
+                    <div style="margin-top: 10px; line-height: 1.6;">
+                        ⚫ Fumaça bem negra<br>
+                        ⚡ Velocidade alta
+                    </div>
+                </div>
+                <div style="background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%); padding: 20px; border-radius: 8px; text-align: center; color: white;">
+                    <div style="font-size: 2.5em; margin-bottom: 10px;">🌫️</div>
+                    <strong style="color: #ffd700; font-size: 1.1em;">LONGE DO FOCO</strong><br>
+                    <div style="margin-top: 10px; line-height: 1.6;">
+                        ⚪ Fumaça mais clara<br>
+                        🐌 Menos densa e veloz
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                🏠 Fumaça Uniforme = Foco Confinado
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
+                Normalmente, vê-se distinção na velocidade e cor entre diversas aberturas. Nos casos onde a fumaça 
+                aparece com uniformidade (pouca diferença), de mesma velocidade e coloração em diversas aberturas, 
+                deve-se deduzir que o foco está num ambiente confinado ou profundamente interiorizado.
+            </p>
+            <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                    ⚠️ Nesses casos, a fumaça atravessa certa distância ou teve pressão perdida atravessando frestas 
+                    de portas ou paredes, que neutralizaram sua cor e velocidade, equilibrando-se antes de escapar da 
+                    estrutura.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: #ffe5e5; padding: 25px; border-radius: 12px; border: 3px solid #c41e3a; margin-bottom: 25px;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.3em;">
+                🧭 Avaliação 360º - Padronização das Faces
+            </h3>
+            <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 20px;">
+                Durante o processo de avaliação 360º da estrutura, observa-se essa diferença de fumaça, e para fins 
+                de padronização de comunicação entre a guarnição, são classificadas as faces da estrutura em 
+                <strong style="color: #c41e3a;">"Alfa"</strong>, <strong style="color: #c41e3a;">"Bravo"</strong>, 
+                <strong style="color: #c41e3a;">"Charlie"</strong> e <strong style="color: #c41e3a;">"Delta"</strong>.
+            </p>
+
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #ffd700;">
+                <p style="line-height: 1.8; color: #333; margin: 0;">
+                    <strong style="color: #c41e3a; font-size: 1.1em;">📍 REGRA:</strong> A fachada <strong>Alfa</strong> 
+                    será sempre a que tem a entrada principal da edificação (portão principal) e o restante, será definido 
+                    em <strong>sentido horário</strong> a partir desta.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px;">
+                <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 15px; border-radius: 8px; text-align: center; color: white;">
+                    <div style="font-size: 2em; margin-bottom: 5px;">🅰️</div>
+                    <strong style="font-size: 1.1em;">ALFA</strong><br>
+                    <small>Entrada Principal</small>
+                </div>
+                <div style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); padding: 15px; border-radius: 8px; text-align: center; color: white;">
+                    <div style="font-size: 2em; margin-bottom: 5px;">🅱️</div>
+                    <strong style="font-size: 1.1em;">BRAVO</strong><br>
+                    <small>Sentido Horário</small>
+                </div>
+                <div style="background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 15px; border-radius: 8px; text-align: center; color: white;">
+                    <div style="font-size: 2em; margin-bottom: 5px;">©️</div>
+                    <strong style="font-size: 1.1em;">CHARLIE</strong><br>
+                    <small>Sentido Horário</small>
+                </div>
+                <div style="background: linear-gradient(135deg, #d97706 0%, #b45309 100%); padding: 15px; border-radius: 8px; text-align: center; color: white;">
+                    <div style="font-size: 2em; margin-bottom: 5px;">🇩</div>
+                    <strong style="font-size: 1.1em;">DELTA</strong><br>
+                    <small>Sentido Horário</small>
+                </div>
+            </div>
+
+            <div style="background: #1a472a; color: white; padding: 20px; border-radius: 8px;">
+                <h4 style="margin-top: 0; color: #ffd700; font-size: 1.2em;">📻 EXEMPLO DE COMUNICAÇÃO:</h4>
+                <p style="line-height: 1.8; margin: 0; font-style: italic; background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 6px; border-left: 4px solid #ffd700;">
+                    "Atenção guarnição, fumaça muito veloz e negra em <strong style="color: #ffd700;">Charlie</strong>, 
+                    possível local de foco, expondo o andar de cima à propagação, vítima acenando pela janela em 
+                    <strong style="color: #ffd700;">Delta</strong>".
+                </p>
+            </div>
+        </div>
+
+        <div style="background: #f0f9ff; padding: 25px; border-radius: 12px; border: 2px solid #2563eb; margin-bottom: 25px; text-align: center;">
+            <h3 style="color: #1e40af; margin-top: 0; font-size: 1.3em;">
+                🖼️ Representação Visual
+            </h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                <img src="CAMINHO_DA_IMAGEM_AQUI" alt="Croqui Ilustrativo das Faces Alfa, Bravo, Charlie e Delta" style="max-width: 100%; height: auto; border-radius: 8px;">
+                <p style="margin: 15px 0 0 0; color: #666; font-style: italic; font-size: 0.95em;">
+                    <strong>Croqui ilustrativo</strong>
+                </p>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.5em; text-transform: uppercase; text-align: center;">
+                💡 LEMBRANDO
+            </h3>
+            <div style="background: #8b0000; color: white; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <p style="line-height: 1.8; text-align: justify; margin: 0 0 20px 0; font-size: 1.05em;">
+                    <strong style="color: #ffd700;">⚠️ Leitura da fumaça não é uma tática, mas é uma ferramenta que 
+                    ajuda a construir as melhores opções táticas.</strong>
+                </p>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; border-left: 4px solid #ffd700;">
+                    <p style="line-height: 1.8; text-align: justify; margin: 0;">
+                        Na essência, a aproximação com leitura da fumaça nos permite realizar um combate mais agressivo, 
+                        possibilitado pela inteligência, em oposição à uma agressividade imprudente e temerária de um 
+                        estabelecimento mais corrido do que pensado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    `
+},
+aguaCombate: {
+    title: '💧 ÁGUA NO COMBATE A INCÊNDIO',
+    content: `
+        <div style="background: linear-gradient(135deg, #0077be 0%, #005a8c 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0, 119, 190, 0.3);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                💧 O Agente Extintor Mais Utilizado
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                A água é o agente extintor mais utilizado no combate a incêndio, devido ao seu 
+                <strong style="color: #ffd700;">baixo custo e grande disponibilidade na natureza</strong>. 
+                Além disto, a água possui características físico-químicas que a fazem um excelente agente 
+                extintor para ser utilizado na maioria das ocorrências de incêndio estrutural urbano, atuando 
+                na extinção principalmente por <strong style="color: #87ceeb;">resfriamento</strong> e 
+                secundariamente por <strong style="color: #87ceeb;">abafamento</strong>.
+            </p>
+        </div>
+
+        <div style="text-align: center; margin: 30px 0; padding: 25px; background: linear-gradient(135deg, #e8f4f8 0%, #cfe9f3 100%); border-radius: 12px; border: 3px solid #0077be;">
+            <img src="CAMINHO_DA_IMAGEM_AQUI.jpg" alt="Água no Combate a Incêndio" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+            <p style="margin-top: 15px; font-weight: bold; color: #0077be; font-size: 1.1em; text-transform: uppercase;">
+                💧 ÁGUA NO COMBATE A INCÊNDIO
+            </p>
+        </div>
+
+        <div style="background: #fff3cd; padding: 25px; border-radius: 12px; border-left: 5px solid #ffa500; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #cc6600; margin-top: 0; font-size: 1.3em;">
+                ⚠️ LIMITAÇÕES E RESTRIÇÕES DE USO
+            </h3>
+            <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 20px; font-size: 1.05em;">
+                Apesar de ser o agente extintor mais utilizado, a água possui algumas limitações importantes 
+                que devem ser conhecidas por todos os bombeiros:
+            </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 25px;">
+            
+            <div style="background: linear-gradient(135deg, #ff4444 0%, #cc0000 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em; text-align: center; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                    ⚡ CLASSE C
+                </h4>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        A água utilizada em incêndios <strong style="color: #ffd700;">conduz eletricidade</strong> 
+                        por possuir sais minerais em sua composição, o que a torna inadequada para incêndios 
+                        envolvendo equipamentos energizados (classe C), em razão do <strong style="color: #ffd700;">
+                        risco de choque elétrico</strong>.
+                    </p>
+                </div>
+                <div style="background: #8b0000; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; text-align: center; font-weight: bold;">
+                    ❌ NÃO UTILIZAR EM EQUIPAMENTOS ENERGIZADOS
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #ff8c00 0%, #cc6600 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em; text-align: center; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                    🛢️ CLASSE B
+                </h4>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        Também não é indicada para ser usada no combate a incêndio em 
+                        <strong style="color: #ffd700;">líquidos inflamáveis</strong> (classe B), pois tem 
+                        densidade superior que a maioria destes combustíveis líquidos, fazendo com que ela vá 
+                        para o fundo do recipiente e não resfrie ou abafe a superfície em chamas.
+                    </p>
+                </div>
+                <div style="background: #8b4500; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; text-align: center; font-weight: bold;">
+                    ❌ NÃO INDICADA PARA LÍQUIDOS INFLAMÁVEIS
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #9400d3 0%, #6a0099 100%); padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(148, 0, 211, 0.3);">
+                <h4 style="color: #ffd700; margin-top: 0; font-size: 1.2em; text-align: center; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                    🔥 CLASSE D
+                </h4>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <p style="color: white; line-height: 1.8; text-align: justify; margin: 0;">
+                        A água também não é indicada para extinguir incêndios envolvendo 
+                        <strong style="color: #ffd700;">material pirofórico</strong> (classe D), uma vez que o 
+                        oxigênio presente em sua composição promove violenta 
+                        <strong style="color: #ffd700;">reação exotérmica</strong> (liberação de calor) ao entrar 
+                        em contato com metais pirofóricos.
+                    </p>
+                </div>
+                <div style="background: #4b0082; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; text-align: center; font-weight: bold;">
+                    ❌ NÃO UTILIZAR EM METAIS PIROFÓRICOS
+                </div>
+            </div>
+
+        </div>
+
+        <div style="background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 100%); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(26, 71, 42, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.4em; text-align: center; text-transform: uppercase;">
+                ✅ RESUMO: QUANDO USAR ÁGUA
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.1); padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                    <div style="background: rgba(255, 215, 0, 0.2); padding: 15px; border-radius: 8px; border: 2px solid #ffd700;">
+                        <strong style="color: #ffd700; font-size: 1.1em;">✅ CLASSE A</strong><br>
+                        <span style="color: white;">Materiais sólidos (madeira, papel, tecido)</span>
+                    </div>
+                    <div style="background: rgba(255, 68, 68, 0.2); padding: 15px; border-radius: 8px; border: 2px solid #ff4444;">
+                        <strong style="color: #ff6666; font-size: 1.1em;">❌ CLASSE C</strong><br>
+                        <span style="color: white;">Equipamentos energizados</span>
+                    </div>
+                    <div style="background: rgba(255, 140, 0, 0.2); padding: 15px; border-radius: 8px; border: 2px solid #ff8c00;">
+                        <strong style="color: #ffaa66; font-size: 1.1em;">❌ CLASSE B</strong><br>
+                        <span style="color: white;">Líquidos inflamáveis</span>
+                    </div>
+                    <div style="background: rgba(148, 0, 211, 0.2); padding: 15px; border-radius: 8px; border: 2px solid #9400d3;">
+                        <strong style="color: #bb66ff; font-size: 1.1em;">❌ CLASSE D</strong><br>
+                        <span style="color: white;">Metais pirofóricos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
+},
+caracteristicasAgua: {
+    title: '💧 5.1 CARACTERÍSTICAS DA ÁGUA',
+    content: `
+        <div style="background: linear-gradient(135deg, #1e90ff 0%, #0066cc 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(30, 144, 255, 0.4);">
+            <h3 style="color: #ffffff; margin-top: 0; font-size: 1.3em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                ⚡ Eficácia da Água na Extinção
+            </h3>
+            <p style="color: white; line-height: 1.8; text-align: justify;">
+                A eficácia da água na extinção de um incêndio se dá basicamente por três principais características: 
+                <strong style="color: #ffd700;">alto valor do calor específico</strong> e do 
+                <strong style="color: #ffd700;">calor latente de vaporização</strong>, e 
+                <strong style="color: #ffd700;">alta capacidade de expansão</strong> quando muda de estado físico 
+                (do líquido para o gasoso).
+            </p>
+        </div>
+
+        <div style="background: #fff8e1; padding: 25px; border-radius: 12px; border-left: 5px solid #ff9800; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="color: #e65100; margin-top: 0; font-size: 1.4em;">
+                🌡️ Calor Específico
+            </h3>
+            
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 2px solid #ff9800;">
+                <h4 style="color: #e65100; margin-top: 0;">📖 Definição</h4>
+                <p style="line-height: 1.8; color: #333; text-align: justify;">
+                    Calor específico é a quantidade de calor necessária para que cada grama de uma substância sofra 
+                    uma variação de temperatura correspondente a 1°C. Essa grandeza é uma característica de cada tipo 
+                    de substância e indica o comportamento do material quando exposto a uma fonte de calor no que se 
+                    diz respeito à absorção de energia e alteração de temperatura.
+                </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%); padding: 20px; border-radius: 8px; margin-bottom: 20px; color: white;">
+                <h4 style="color: #fff; margin-top: 0; font-size: 1.2em;">💧 Calor Específico da Água</h4>
+                <div style="background: rgba(255,255,255,0.15); padding: 15px; border-radius: 8px; text-align: center; margin: 15px 0;">
+                    <p style="font-size: 1.5em; margin: 0; font-weight: bold;">1 cal/g°C</p>
+                </div>
+                <p style="line-height: 1.8; text-align: justify;">
+                    No caso da água, o calor específico é <strong>1 cal/g°C</strong>. Isto significa que para elevar 
+                    a temperatura de 1 grama de água em 1°C, é necessário que esta massa de água absorva 1 caloria. 
+                    De maneira inversa, para abaixar a temperatura de 1 grama de água em 1°C, é necessário que esta 
+                    massa de água perca 1 caloria.
+                </p>
+            </div>
+
+            <div style="background: #e8f5e9; padding: 20px; border-radius: 8px; border-left: 4px solid #4caf50;">
+                <p style="line-height: 1.8; color: #1b5e20; text-align: justify; margin: 0;">
+                    ✅ <strong>Por possuir um dos mais altos valores de calor específico a água é muito eficaz na 
+                    extinção por resfriamento</strong>, pois absorve grande quantidade de energia para pouco incremento 
+                    de sua temperatura.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: #f3e5f5; padding: 25px; border-radius: 12px; border: 3px solid #9c27b0; margin-bottom: 25px;">
+            <h3 style="color: #6a1b9a; margin-top: 0; font-size: 1.3em;">
+                🔬 Calor Sensível
+            </h3>
+            <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 20px;">
+                Uma vez que é possível sentir a absorção de energia através do aumento de temperatura, esta porção 
+                de energia é chamada de <strong style="color: #9c27b0;">calor sensível</strong>.
+            </p>
+
+            <div style="background: linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%); padding: 25px; border-radius: 10px; color: white; margin-bottom: 20px;">
+                <h4 style="color: #ffd700; margin-top: 0; text-align: center; font-size: 1.3em;">📐 FÓRMULA DO CALOR SENSÍVEL</h4>
+                <div style="background: white; padding: 20px; border-radius: 8px; text-align: center; margin: 15px 0;">
+                    <p style="font-size: 1.8em; margin: 0; font-weight: bold; color: #9c27b0;">Q = m × c × ΔT</p>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">Q =</strong> quantidade de calor sensível (cal)
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">m =</strong> massa da substância (g)
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">c =</strong> calor específico da substância (cal/gºC)
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">ΔT =</strong> variação de temperatura da substância (ºC)
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: #fff3cd; padding: 25px; border-radius: 10px; border-left: 5px solid #ff9800;">
+                <h4 style="color: #e65100; margin-top: 0; font-size: 1.3em;">💡 EXEMPLO PRÁTICO</h4>
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 15px;">
+                    <strong>Pergunta:</strong> Para 1 litro de água a 40ºC ser aquecido até que atinja 100ºC, qual a 
+                    quantidade de calorias este volume de água deve absorver?
+                </p>
+                
+                <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+                    <p style="margin: 0 0 10px 0; color: #333;"><strong style="color: #e65100;">Utiliza-se a seguinte equação:</strong></p>
+                    <p style="text-align: center; font-size: 1.3em; margin: 15px 0; color: #9c27b0; font-weight: bold;">Q = m × c × ΔT</p>
+                    
+                    <p style="margin: 15px 0 5px 0; color: #333;"><strong style="color: #e65100;">Tem-se que:</strong></p>
+                    <ul style="line-height: 2; color: #333;">
+                        <li>1 litro de água tem massa de 1 kg = <strong>1000 g de água</strong></li>
+                        <li>c = calor específico da água = <strong>1 cal/gºC</strong></li>
+                        <li>ΔT = variação de temperatura = 100ºC – 40ºC = <strong>60ºC</strong></li>
+                    </ul>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%); padding: 20px; border-radius: 8px; color: white; margin-top: 15px;">
+                    <p style="margin: 0 0 10px 0; font-size: 1.1em;"><strong>Então:</strong></p>
+                    <p style="text-align: center; font-size: 1.3em; margin: 10px 0;">Q = 1000 g × 1 cal/gºC × 60ºC</p>
+                    <div style="background: rgba(255,255,255,0.2); padding: 15px; border-radius: 8px; text-align: center; margin-top: 15px;">
+                        <p style="font-size: 1.8em; margin: 0; font-weight: bold; color: #ffd700;">Q = 60.000 calorias</p>
+                    </div>
+                </div>
+
+                <div style="background: #e3f2fd; padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #2196f3;">
+                    <p style="line-height: 1.8; color: #0d47a1; margin: 0; text-align: justify;">
+                        📌 <strong>Conclusão:</strong> Ou seja, para a temperatura de 1 litro de água se eleve de 40ºC 
+                        para 100ºC, este volume de água precisa absorver 60.000 calorias.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%); padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(196, 30, 58, 0.4);">
+            <h3 style="color: #ffd700; margin-top: 0; font-size: 1.4em; text-transform: uppercase; border-bottom: 2px solid #ffd700; padding-bottom: 10px;">
+                💨 Calor Latente de Vaporização
+            </h3>
+            
+            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <h4 style="color: #ffd700; margin-top: 0;">📖 Definição</h4>
+                <p style="color: white; line-height: 1.8; text-align: justify;">
+                    Calor latente de vaporização é a grandeza física relacionada à quantidade de calor que uma massa 
+                    correspondente a 1 grama de determinada substância necessita absorver para passar do estado líquido 
+                    para o estado gasoso. Durante a mudança de estado físico a temperatura da substância não varia, 
+                    mas seu estado de agregação molecular se modifica.
+                </p>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <p style="color: white; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
+                    O processo de vaporização ocorre quando o líquido atinge sua temperatura de ebulição, que no caso 
+                    da água, a temperatura de ebulição é <strong style="color: #ffd700;">100ºC</strong>.
+                </p>
+                <div style="background: rgba(255,215,0,0.2); padding: 15px; border-radius: 8px; text-align: center;">
+                    <p style="color: #ffd700; font-size: 1.2em; margin: 0;">
+                        ⚡ A água possui um elevado valor de calor latente de vaporização: <strong style="font-size: 1.5em;">540 cal/g</strong>
+                    </p>
+                </div>
+                <p style="color: white; line-height: 1.8; text-align: justify; margin-top: 15px;">
+                    Ou seja, para 1 grama de água, a 100ºC, passar do estado líquido para o estado gasoso, é necessário 
+                    que absorva <strong style="color: #ffd700;">540 calorias</strong>.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: #e1f5fe; padding: 25px; border-radius: 12px; border: 3px solid #0288d1; margin-bottom: 25px;">
+            <h3 style="color: #01579b; margin-top: 0; font-size: 1.3em;">
+                🧮 Cálculo do Calor Latente de Vaporização
+            </h3>
+
+            <div style="background: linear-gradient(135deg, #0288d1 0%, #0277bd 100%); padding: 25px; border-radius: 10px; color: white; margin-bottom: 20px;">
+                <h4 style="color: #ffd700; margin-top: 0; text-align: center; font-size: 1.3em;">📐 FÓRMULA DO CALOR LATENTE</h4>
+                <div style="background: white; padding: 20px; border-radius: 8px; text-align: center; margin: 15px 0;">
+                    <p style="font-size: 1.8em; margin: 0; font-weight: bold; color: #0288d1;">q = m × C</p>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">q =</strong> quantidade de calor latente
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">m =</strong> massa da substância em grama
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 15px; border-radius: 8px;">
+                        <strong style="color: #ffd700;">C =</strong> calor latente de vaporização da substância
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: #fff3cd; padding: 25px; border-radius: 10px; border-left: 5px solid #ff6f00;">
+                <h4 style="color: #e65100; margin-top: 0; font-size: 1.3em;">💡 EXEMPLO PRÁTICO</h4>
+                <p style="line-height: 1.8; color: #333; text-align: justify; margin-bottom: 15px;">
+                    <strong>Pergunta:</strong> Para 1 litro de água a 100ºC no estado líquido passar para o estado 
+                    gasoso, qual a quantidade de calorias este volume de água deve absorver?
+                </p>
+                
+                <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+                    <p style="margin: 0 0 10px 0; color: #333;"><strong style="color: #e65100;">Utiliza-se a seguinte equação:</strong></p>
+                    <p style="text-align: center; font-size: 1.3em; margin: 15px 0; color: #0288d1; font-weight: bold;">q = m × C</p>
+                    
+                    <p style="margin: 15px 0 5px 0; color: #333;"><strong style="color: #e65100;">Tem-se que:</strong></p>
+                    <ul style="line-height: 2; color: #333;">
+                        <li>1 litro de água tem massa de 1 kg = <strong>1000 g de água</strong></li>
+                        <li>C = calor latente de vaporização da água = <strong>540 cal/g</strong></li>
+                    </ul>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%); padding: 20px; border-radius: 8px; color: white; margin-top: 15px;">
+                    <p style="margin: 0 0 10px 0; font-size: 1.1em;"><strong>Então:</strong></p>
+                    <p style="text-align: center; font-size: 1.3em; margin: 10px 0;">Q = 1000 g × 540 cal/g</p>
+                    <div style="background: rgba(255,255,255,0.2); padding: 15px; border-radius: 8px; text-align: center; margin-top: 15px;">
+                        <p style="font-size: 1.8em; margin: 0; font-weight: bold; color: #ffd700;">Q = 540.000 calorias</p>
+                    </div>
+                </div>
+
+                <div style="background: #e3f2fd; padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #2196f3;">
+                    <p style="line-height: 1.8; color: #0d47a1; margin: 0; text-align: justify;">
+                        📌 <strong>Conclusão:</strong> Ou seja, para que 1 litro de água a 100ºC passe do estado líquido 
+                        para o estado gasoso este volume de água precisa absorver 540.000 calorias.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5); margin-bottom: 25px;">
+            <h3 style="color: #8b0000; margin-top: 0; font-size: 1.5em; text-transform: uppercase; text-align: center;">
+                🔥 COMPARAÇÃO: CALOR SENSÍVEL vs CALOR LATENTE
+            </h3>
+            
+            <div style="background: #8b0000; color: white; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                <p style="line-height: 1.8; text-align: justify; margin-bottom: 20px; font-size: 1.05em;">
+                    Tendo em vista a quantidade de calor sensível e a quantidade de calor latente vistas nos tópicos 
+                    acima, percebe-se que um mesmo volume de água absorve <strong style="color: #ffd700; font-size: 1.3em;">9 VEZES</strong> 
+                    a quantidade de calor necessária para aquecer de 40ºC para 100ºC quando muda de estado físico. Veja o gráfico:
+                </p>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 25px;">
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; border: 2px solid #ffd700;">
+                        <div style="text-align: center; margin-bottom: 15px;">
+                            <span style="font-size: 3em;">🌡️</span>
+                        </div>
+                        <h4 style="color: #ffd700; margin: 0 0 10px 0; text-align: center;">CALOR SENSÍVEL</h4>
+                        <p style="text-align: center; font-size: 1.5em; margin: 10px 0; font-weight: bold;">60.000 cal</p>
+                        <p style="text-align: center; margin: 0; font-size: 0.9em;">Aquecer de 40°C para 100°C</p>
+                    </div>
+                    <div style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 8px; border: 2px solid #ffd700;">
+                        <div style="text-align: center; margin-bottom: 15px;">
+                            <span style="font-size: 3em;">💨</span>
+                        </div>
+                        <h4 style="color: #ffd700; margin: 0 0 10px 0; text-align: center;">CALOR LATENTE</h4>
+                        <p style="text-align: center; font-size: 1.5em; margin: 10px 0; font-weight: bold;">540.000 cal</p>
+                        <p style="text-align: center; margin: 0; font-size: 0.9em;">Mudar de estado físico a 100°C</p>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255, 215, 0, 0.2); padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
+                    <p style="margin: 0; font-size: 1.2em; line-height: 1.8;">
+                        ⚡ <strong style="color: #ffd700;">TOTAL:</strong> 1 litro de água a 40°C absorve 
+                        <strong style="color: #ffd700; font-size: 1.4em;">600.000 calorias</strong> ao se transformar 
+                        completamente em vapor d'água a 100°C
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: white; padding: 25px; border-radius: 12px; border: 3px solid #2196f3; margin-bottom: 25px; text-align: center;">
+            <h3 style="color: #01579b; margin-top: 0; font-size: 1.3em;">
+                📊 GRÁFICO - QUANTIDADE DE CALOR ABSORVIDO
+            </h3>
+            <div style="background: #e3f2fd; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <p style="color: #0d47a1; font-style: italic; margin: 0;">
+                    [AQUI COLOCAR A IMAGEM DO GRÁFICO]
+                </p>
+                <img src="[CAMINHO_DA_IMAGEM]" alt="Gráfico de Calor Absorvido" style="max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
+            </div>
+            <div style="background: #fff3cd; padding: 20px; border-radius: 8px; text-align: left;">
+                <p style="color: #333; line-height: 1.8; margin: 0;">
+                    <strong style="color: #e65100;">Legenda:</strong><br>
+                    <strong>1 -</strong> Quantidade de calor absorvido para 1 litro de água a 40°C aquecer até atingir 100°C<br>
+                    <strong>2 -</strong> Quantidade de calor absorvido por 1 litro de água a 40°C ao passar totalmente para o estado de vapor d'água a 100°C. Quantidade de calor absorvido por 1 litro de água.
+                </p>
+            </div>
+        </div>
+    `
+},            
             mangueira: {
                 title: '6. MANGUEIRA',
                 content: `
